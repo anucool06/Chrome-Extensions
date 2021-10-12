@@ -1,0 +1,23 @@
+body {
+	height: 270px;
+	width: 300px;
+	background-color: lightcyan;
+	display: flex;
+	justify-content: center;
+}
+h2 {
+	display: flex;
+	font-size: 20px;
+	margin: 30px auto 40px auto;
+}
+p {
+	/*text-align: center;*/
+	display: flex;
+	font-size: 18px;
+	margin: auto 10px;
+	border-radius: 5px;
+	border: 2px solid cyan;
+	color: black;
+	padding: 10px;
+
+}
