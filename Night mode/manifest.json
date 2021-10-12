@@ -1,0 +1,24 @@
+{
+	"name": "Night mode",
+	"version" : "0.0.1",
+	"description" : "Converts from light mode to dark mode and vice versa",
+	"manifest_version" : 2,
+	 "background" : {			// what should run in background
+	 	"scripts" : [
+	 		"popup.js"
+	 	],
+	 	"persistent" : true
+	 },
+	 "browser_action" : {
+	 	"default_popup" : "index.html",
+	 	"default_icon" : "logo.png"
+	 },
+	 "icons" : {					// defining icon
+		"128" : "logo.png"				// icon size should be
+	},
+	 "permissions" : [
+	 	"https://*/*",
+        "http://*/*",
+        "tabs"
+	 ]
+}
